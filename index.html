@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ampliación Ocular - Triángulo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AMPLIACIÓN OCULAR - TRIÁNGULO</h1>
+        <p class="instruction">Centrar la mirada en la línea del medio y deslizarla según la indicación. Percebir las palabras sin intentar leerlas.</p>
+        <div id="settings">
+            <label for="speedInput">Selecciona la velocidad (ms):</label>
+            <input type="number" id="speedInput" value="1000" min="100" step="100"> <!-- Valor por defecto de 1000ms -->
+        </div>
+        <div id="containerInputButton" class="container-input-button">
+            <button id="startButton">Iniciar</button>
+        </div>
+        <div id="timer"></div>
+        
+        <div id="triangleContainer" class="triangle-container hidden">
+            <div class="triangle">
+                <div class="center-line"></div>
+                <div id="textSlot">
+                    <div class="line">A simple vista</div>
+                    <div class="line">todos parecen iguales,</div>
+                    <div class="line">todos son blanco y negro,</div>
+                    <div class="line">esponjositos, ninguno puede volar y</div>
+                    <div class="line">todos, pero todos, caminan graciosamente. Sin</div>
+                    <div class="line">embargo, al igual que nosotros, cada uno es diferente y</div>
+                    <div class="line">tienen distintas capacidades; algunos son magníficos pescadores,</div>
+                    <div class="line">otros pueden entonar ingeniosos cantos, o recordar complicadas rutas</div>
+                    <div class="line">hacia lugares secretos donde nacen los bebés pingüinos. A simple vista todos parecen</div>
+                    <div class="line">iguales, todos son blanco y negro, esponjositos, ninguno puede volar y todos , pero todos,</div>
+                </div>
+                <div class="blue-highlight"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
