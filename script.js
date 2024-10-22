@@ -44,7 +44,7 @@ function startVisualRecorrido(velocidadRecorrido) {
 
 function startTimer() {
     var timerElement = document.getElementById('timer');
-    var totalTime = 120; // 2 minutos en segundos
+    var totalTime = 180; // 2 minutos en segundos
     var minutes, seconds;
     
     timerInterval = setInterval(function() {
